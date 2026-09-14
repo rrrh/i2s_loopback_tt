@@ -25,9 +25,8 @@ project:
 # The pinout of your project. Leave unused pins blank. DO NOT delete or add any pins.
 # This section is for the datasheet/website. Use descriptive names (e.g., RX, TX, MOSI, SCL, SEG_A, etc.).
 pinout:
-  # Inputs
-  ui[0]: ""
-  ui[1]: ""
+  ui[0]: "ws (Word Select)"
+  ui[1]: "rx_sdata (Audio In)"
   ui[2]: ""
   ui[3]: ""
   ui[4]: ""
@@ -35,9 +34,8 @@ pinout:
   ui[6]: ""
   ui[7]: ""
 
-  # Outputs
-  uo[0]: ""
-  uo[1]: ""
+  uo[0]: "tx_sdata_lp (Low-Pass Out)"
+  uo[1]: "tx_sdata_hp (High-Pass Out)"
   uo[2]: ""
   uo[3]: ""
   uo[4]: ""
