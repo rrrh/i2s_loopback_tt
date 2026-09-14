@@ -1,5 +1,7 @@
 --- 
 # TinyTapeout project information
+yaml_version: 6
+
 project:
   title:        "I2S Digital Loopback"
   author:       "Sven Huerlimann"
